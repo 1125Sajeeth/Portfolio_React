@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4bf1757aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span class="first-name">Sajeeth</span> <span class="last-name">Thurairasa</span><br> from Srilanka</h1>
+            </div>
+        </div>
+    </div>
+
+    <!----------------about--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a motivated and creative third-year student studying
+                        Information Systems at Sabaragamuwa University in Sri Lanka. My
+                        primary interests are web programming and design and mobile
+                        applications, and I'm looking for an internship to hone my talents
+                        and obtain hands-on experience in these fields. I am excited
+                        about contributing to unique initiatives, learning from industry
+                        experts, and honing my skills in web programming and design and
+                        mobile applications development.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>PROGRAMMING LANGUAGES</span><br>C<br>Python<br>Java</li>
+                            <li><span>WEB TECHNOLOGIES</span><br>HTML,CSS, JavaScript<br>React Js<br>PHP<br>Node Js</li>
+                            <li><span>DATABASES</span><br>Mongodb<br>MySQL<br>Firebase</li>
+                            <li><span>FRAMEWORK</span><br>Flask<br>Bootstrap<br>MVC framework</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020</span><br>Team Member at MAS vaanavil</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Present</span><br>BSC (HONS) IN COMPUTING & INFORMATION SYSTEMS</li>
+                            <li><span>2019</span><br>GCE A/L EXAMINATION</li>
+                            <li><span> 2005-2016</span><br>GCE O/L EXAMINATION</li>
+                        </ul>
+                    </div>
+
+                 </div>
+            </div>
+        </div>
+    </div>
+
+
+<!----------------services------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>My speciality is creating visually beautiful and user-friendly websites. My web design services are focused on providing an amazing user experience that is consistent with your brand identity. I use the most recent design trends and technologies to ensure that your website is not only visually appealing, but also functional and responsive. Whether you need a basic landing page or a big e-commerce site, I customise my designs to match your exact requirements and objectives.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>My UI/UX design services strive to increase user happiness by improving the usability, accessibility, and pleasure of the user's interaction with your product. I perform extensive research and testing to design intuitive and engaging interfaces that give a consistent user experience. I create logical and delightful user journeys, ensuring that your digital product is both effective and enjoyable to use.
+
+                    </p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>From concept to launch, my app design services encompass the complete mobile app lifecycle. I specialise in creating apps that are not only visually appealing but also highly useful and user-friendly. My process entails extensive research, wireframing, prototyping, and testing to produce apps that satisfy your business objectives while exceeding user expectations. Whether you want to design an app for iOS, Android, or both, I'll make sure your app stands out in a crowded marketplace.</p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<!-----------------------------portfolio----------------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>TAILORING SHOP WEBSITE (INDIVIDUAL PROJECT)-REACT JS</h3>
+                        <p>Created a comprehensive tailoring store website with React JS, exhibiting a variety of services such as custom tailoring, alterations, and unique designs. </p>
+                        <a href="https://github.com/1125Sajeeth/Rolex" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>DTECTAPP-ML BASED SIGNATURE VERIFICATION APP(GROUP) GROUP-PYTHON, FLASK, REACT</h3>
+                        <p>CAPSTONE PROJECT- SABARAGAMUWA UNIVERSITY OF SRILANKA<br>This project was developed with the focus on lectures in the
+                            university. That means it is designed to identify fake signatures of
+                            students in the classroom.</p>
+                        <a href="https://github.com/Gobihanath/DTect" target="_blank"><i class="fa-brands fa-github"></i></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>PORTFOLIO WEBSITE (INDIVIDUAL PROJECT)-JAVASCRIPT, HTML</h3>
+                        <p>Created a user-friendly, responsive portfolio website with React JS to exhibit projects, talents, and experiences.</p>
+                        <a href="https://github.com/1125Sajeeth/Portfolio.git" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+<!-----------------------------Contact----------------------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sajeeth991125@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>077-173 9255</p>
+                    <div class="social-icon">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <!--<input type="hidden" name="access_key" value="e3f77df8-f64d-4865-94ca-03e743a9ca78">-->
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Email Id" required>
+                        <textarea name="Message" placeholder="Your Massage" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sajeeth. This is My <i class="fa-solid fa-heart"></i> Portfolio</i></p>
+        </div>
+    </div>
+
+<!-------------------------------------------------------------------------->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right= "-200px";
+        }
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyFt7BF2kQhc6_D38IMh_7Sxl-g5O7biJGoZea33DUfoaCEQZ9_joi9Frv-X8POqCNf-w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML ="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
